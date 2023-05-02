@@ -1,0 +1,12 @@
+[package]
+name = "good_reads_v3"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+polars = { version = "0.28.0", features = ["lazy"] }
+petgraph = "0.6.3"
+dialoguer = {version = "0.10.4", features = ["completion"]}
+console = "*"
